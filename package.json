@@ -1,0 +1,25 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "A Slack Assistant for the PE Team, which helps in the resource management",
+  "main": "index.js",
+  "author": "Veda Prakash",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js",
+    "nodemon": "nodemon -x 'node index.js || touch index.js'"
+  },
+  "dependencies": {
+    "@slack/events-api": "^3.0.1",
+    "@slack/web-api": "^6.7.2",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
